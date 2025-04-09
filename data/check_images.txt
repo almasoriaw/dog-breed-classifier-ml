@@ -1,0 +1,30 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: 
+Yes, the 3 models did classify correctly the breed of the dog that I uploaded to be Airedale_Terrier_01
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, the breed of "Airedale_Terrier_01" was correctly classified to be the same breed as in "Airedale_Terrier_02" by the 3 models
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: No, only VGG classified correctly "Kangaroo_01" to be "wallaby, brush kangaroo", the other 2 models classified incorrectly as "cougar, puma, mountain lion, painter, panther, felis concolor"
+Regarding the object, only VGG classified correctly "Coffee_Mug_01" to be a coffee mug. The other 2 classified as as "cup".
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: VGG performed the best considering the results, with 4 Matches and classifying correctly all the images:
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   4
+N Dog Images        :   2
+N of "Not-a" Dog Images:   2
+pct_correct_dogs    : 100.00
+pct_correct_notdogs : 100.00
+pct_correct_breed   : 100.00
+pct_match           : 100.00
+
